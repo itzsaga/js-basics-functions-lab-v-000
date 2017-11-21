@@ -25,6 +25,6 @@ function calculatesFarePrice(x, y) {
     case (2000 <= distance && distance <= 2500):
       return 25.00
     default:
-      return 
+      return 'cannot travel that far'
   }
 }
