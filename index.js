@@ -18,7 +18,7 @@ function distanceTravelledInFeet(x, y) {
 function calculatesFarePrice(x, y) {
   const distance = distanceTravelledInFeet(x, y)
   switch(true) {
-    case (distance && distance <= 2000):
+    case (distance < 400):
       return distance * .02
     default:
       return 0
